@@ -1,0 +1,54 @@
+//Day2 5 assignment
+
+// class A
+public class A {
+	static int a=10;
+	int b=20;
+	public static void hi()
+	{
+		System.out.println("hi");
+	}
+}
+//class B
+
+public class B {
+	static int a=30;
+	int b=40;
+	public static void hello()
+	{
+		System.out.println("hello");
+	}
+	public void bye()
+	{
+		System.out.println("bye");
+	}
+}
+//Class C
+
+public class C {
+	static int a=50;
+	int b=60;
+	public static void abc()
+	{
+		System.out.println("abc");
+	}
+}
+// class Demo
+public class Demo {
+
+	public static void main(String[] args) {
+		A a=new A();
+		A.hi();// TODO Auto-generated method stub
+		System.out.println(A.a);
+		B b=new B();
+		B.hello();// TODO Auto-generated method stub
+		System.out.println(b.b);
+		C c=new C();
+		C.abc();// TODO Auto-generated method stub
+		System.out.println(C.a);
+		
+		
+
+	}
+
+}

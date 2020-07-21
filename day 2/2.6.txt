@@ -1,0 +1,49 @@
+// day 2 6
+//class A
+public class A {
+	int x=5;
+public static int a;
+static
+{
+	a=10;
+}
+
+}
+
+//class B
+public class B {
+	int y=10;
+	public static int b;
+	static
+	{
+		b=10;
+	}
+}
+
+//class C
+public class C {
+	int z=15;
+	public static int c;
+	static
+	{
+		c=30;
+	}
+}
+
+//Demo
+
+public class Demo {
+	public static void main(String[] args) {
+		A a=new A();
+		System.out.println(a.a);
+		System.out.println(a.x);
+		B b=new B();
+		System.out.println(b.b);
+		System.out.println(b.y);
+		C c=new C();
+		System.out.println(c.c);
+		System.out.println(c.z);
+		
+	}
+}
+
