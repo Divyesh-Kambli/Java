@@ -1,0 +1,29 @@
+// 4th
+//MYclass
+public class Myclass {
+Myclass()
+{
+	System.out.println("in default");
+}
+Myclass(int a)
+{
+	System.out.println("in one arg");
+}
+Myclass(int a,int b)
+{
+	System.out.println("in two arg");
+}
+}
+
+
+//Main
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+new Myclass();
+new Myclass(15);
+new Myclass(15,20);
+	}
+
+}

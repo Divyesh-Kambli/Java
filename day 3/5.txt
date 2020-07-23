@@ -1,0 +1,22 @@
+5th 
+// Class Emp
+public class Emp {
+private static int cnt=10;
+
+public static void getCnt() {
+	System.out.println(cnt);
+}
+
+}
+
+
+//Class main
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Emp e=new Emp();
+Emp.getCnt();
+	}
+
+}

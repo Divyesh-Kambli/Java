@@ -1,0 +1,25 @@
+
+public class Demoarr {
+	// day 2 2nd assignment
+public void disp()
+	{
+		System.out.println("disp");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Demoarr[] arr=new Demoarr[4];
+		arr[0]=new Demoarr();
+		arr[1]=new Demoarr();
+		arr[2]=new Demoarr();
+		arr[3]=new Demoarr();
+		arr[0].disp();
+		arr[1].disp();
+		arr[2].disp();
+		arr[3].disp();
+		
+		
+		
+	}
+
+}

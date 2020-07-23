@@ -1,0 +1,22 @@
+3rd
+//main class
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Shape s=new Shape();
+		System.out.println(s.width);
+		System.out.println(s.height);
+		
+
+	}
+
+}
+
+//shape
+public class Shape {
+int height=10;
+int width=20;
+}
+
